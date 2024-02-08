@@ -1,0 +1,46 @@
+nav a{
+    text-decoration: none;color: #EEEEEE;padding: 1em;
+}body {
+    font-family: 'Comic Sans MS','cursive', sans-serif ;background-color: #222831;color: #EEEEEE;margin: 0;padding: 0;
+}
+header {
+    background-color: #00ADB5;color: #EEEEEE;text-align: center;padding: 10px;
+}
+section {
+    background-color: #393E46;max-width: 800px;margin: 20px auto;padding: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social {
+    display: flex;flex-direction: row;justify-content: center;align-items: center;
+    
+}
+.social a{
+    margin: 20px;text-decoration: none;
+}
+footer {
+    background-color: #00ADB5;color: #EEEEEE;text-align: center;padding: 10px;position: fixed;bottom: 0;width: 100%;
+}
+footer nav a img{
+    height: 25px; width: 25px;
+}
+#introduccion .div{
+    height: 250px; width: 800px; border: 2px dashed grey; align-items: center; justify-content: center; display: flex; border-radius: 100px; color: grey; cursor: pointer;
+}
+#controlPanel{
+    display: none; grid-template-columns: 1fr 1fr; grid-gap: 10px;
+}
+#controlPanel .Grafica{
+    height: 250px; width: 400px; align-items: center; display: grid; color: grey; place-items:  center; background-color: aqua; border-radius: 75px; cursor: pointer;
+}
+#controlPanel .Grafica h3{
+    text-align: center;
+}
+#controlPanel .Grafica img{
+    width: 100px;
+}
+#Graficas{
+    display: none; flex-direction: column; justify-content: center; align-items: center; margin-top: 20%; margin-bottom: 20%
+}
+#Tablas{
+    display: none; flex-direction: column; justify-content: center; align-items: center; margin-top: 20%; margin-bottom: 20%
+}
